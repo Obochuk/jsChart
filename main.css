@@ -1,0 +1,24 @@
+html{
+    background: #e6e9e9 linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 auto 0 auto;
+    padding: 2em 2em;
+}
+
+.center{
+    text-align: center;
+}
+
+#chart_id{
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    color: green;
+    font-size: 18px;
+}

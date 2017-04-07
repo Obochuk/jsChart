@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Моделювання функціонування системи</title>
+</head>
+<body>
+
+<div class="center">
+    <h1>Моделювання процесу функціонування системи за принципом Δt</h1>
+
+
+    <p>
+        Система представляє собою: <br>
+        Швидкість v, шлях s та час t пов'язані законом прямолінійного
+        руху тіла в часі: s(t) = -cos(t) + 3. <br>
+        Імітувати процес руху тіла в часі з кроком Δt при початкових
+        значеннях: t = 0, s = 2.<br>
+        Значення Δt вибирається з інтервалу (0;1) за допомогою ГПВЧ.<br>
+        Визначити місце знаходження тіла в точці t.
+    </p>
+
+    <input type="button" value="Визначити місцезнаходження тіла" onclick="Calculate()"> <br> <br>
+
+    <div id="chart_id" style="width: 1000px; height: 600px; align-items: center"></div>
+</div>
+
+</body>
+</html>
